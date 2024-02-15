@@ -1,0 +1,73 @@
+
+
+
+
+/* Styles pour les en-têtes */
+h1, h2, h3, h4, h5, h6 {
+    color: #333; /* Couleur du texte */
+}
+
+/* Styles pour la barre de navigation */
+.navbar {
+    background-color: #343a40; /* Couleur de fond */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff; /* Couleur du texte */
+}
+
+.nav-link:hover {
+    color: #f8f9fa; /* Couleur du texte au survol */
+}
+
+
+/* Styles pour le Jumbotron */
+.jumbotron {
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+}
+
+
+
+
+/* Styles pour le pied de page */
+.footer {
+    background-color: #343a40; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+}
+
+/* Styles for carousel images */
+.carousel-item img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(141, 85, 158, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 20px;
+  }
+
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
